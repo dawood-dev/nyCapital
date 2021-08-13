@@ -1,0 +1,56 @@
+{
+  "name": "ai",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Project Geographic District": {
+      "type": "number"
+    },
+    "Project Building Identifier": {
+      "type": "string"
+    },
+    "Project School Name": {
+      "type": "string"
+    },
+    "Project Type": {
+      "type": "string"
+    },
+    "Project Description": {
+      "type": "string"
+    },
+    "Project Phase_Name": {
+      "type": "string"
+    },
+    "Project Status Name": {
+      "type": "string"
+    },
+    "Project Phase Actual Start Date": {
+      "type": "date"
+    },
+    "Project Phase Planned End Date": {
+      "type": "date"
+    },
+    "Project Phase Actual End Date": {
+      "type": "date"
+    },
+    "Project Budget Amount": {
+      "type": "string"
+    },
+    "Final Estimate of Actual Costs Through End of Phase Amount": {
+      "type": "number"
+    },
+    "Total Phase Actual Spending Amount": {
+      "type": "number"
+    },
+    "DSF Number(s)": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
